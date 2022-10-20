@@ -1,0 +1,10 @@
+#fullBackground {
+    background-image: url("../img/img.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+#repeatBackground {
+    background-image: url("../img/logo.jpg");
+}
