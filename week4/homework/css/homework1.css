@@ -1,0 +1,56 @@
+html,
+body,
+div {
+    height: 100%;
+}
+
+.box {
+    display: flex;
+}
+
+.box div {
+
+    flex: 1;
+}
+
+#body {
+    margin: 0;
+}
+
+#border {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: -15px;
+    margin-right: 100px;
+
+    padding-left: 50px;
+    border: 5px solid black;
+
+    text-align: center left;
+
+}
+
+#title {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 80px;
+    line-height: 1.2;
+
+}
+
+#content {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+#pic {
+    background-image: url("../img/pic1.png");
+    margin-right: 50px;
+    margin-top: -12px;
+    background-position: cover;
+
+
+
+}
