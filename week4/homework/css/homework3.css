@@ -17,13 +17,29 @@
 
 #border {
     margin-top: 100px;
-    margin-right: -20px;
+    margin-right: -22px;
     margin-left: 50px;
     margin-bottom: 100px;
-    padding-top: 60px;
+    padding-top: 25px;
     padding-right: 50px;
     border: 8px solid black;
     text-align: right;
 }
 
-#title {}
+#title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+
+}
+
+#header1,
+#header2,
+#header3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#content1,
+#content2,
+#content3 {
+    font-family: 'Poppins', sans-serif;
+}
