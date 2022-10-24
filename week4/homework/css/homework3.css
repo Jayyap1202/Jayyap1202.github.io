@@ -1,0 +1,17 @@
+html,
+body,
+div {
+    height: 100%;
+}
+
+.box {
+    display: flex;
+}
+
+.box div {
+    flex: 1;
+}
+
+#pic {
+    background-image: url("../img/pic5.png");
+}
