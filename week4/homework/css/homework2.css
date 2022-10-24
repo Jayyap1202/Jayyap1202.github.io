@@ -1,0 +1,13 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.box div {
+    flex: 1;
+}
+
+#border {
+    border: 5px solid black;
+    text-align: center;
+}
