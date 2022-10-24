@@ -43,3 +43,22 @@
     margin-top: 150px;
     margin-right: 80px;
 }
+
+#header1 {
+    width: 280px;
+    border: 0px solid white;
+    word-break: keep-all;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-style: bold;
+    font-size: 15px;
+}
+
+#paragraph1 {
+    width: 280px;
+    border: 0px solid white;
+    word-break: keep-all;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
