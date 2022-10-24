@@ -23,13 +23,13 @@
     font-size: 50px;
 }
 
-.pic {
+.picture {
     display: flex;
     justify-content: space-around;
 }
 
-#pic {
-    background-image: url("../img/pic2.png");
-    background-image: url("../img/pic3.png");
-    background-image: url("../img/pic4.png");
+#pic1 {
+    margin-top: 120px;
+    margin-left: 40px;
+
 }
