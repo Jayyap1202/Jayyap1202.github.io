@@ -18,7 +18,7 @@
 }
 
 #header {
-    color: #FAF0E6;
+    color: #eeecdc;
     border: 0px solid black;
     width: 340px;
     word-break: keep-all;
@@ -30,7 +30,7 @@
 }
 
 #text1 {
-    color: #FFE4B5;
+    color: #b2b1ad;
     border: 0px solid black;
     width: 390px;
     word-break: keep-all;
@@ -44,7 +44,7 @@
 }
 
 #text2 {
-    color: #FFE4B5;
+    color: #b2b1ad;
     border: 0px solid black;
     width: 420px;
     word-break: keep-all;
