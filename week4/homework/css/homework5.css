@@ -1,0 +1,43 @@
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+#body {
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+}
+
+#title {
+    border: 0px solid black;
+    width: 20%;
+    font-size: 50px;
+    margin-left: 170px;
+}
+
+#pic1 {
+    margin-right: 30px;
+}
+
+#pic2 {
+    margin-right: 30px;
+}
+
+#pic3 {
+    margin-right: 150px;
+}
+
+#header1,
+#header2,
+#header3 {}
+
+#text1,
+#text2,
+#text3 {
+    border: 0px solid white;
+    width: 210px;
+    font-size: 18px;
+    line-height: 25px;
+    border-bottom: 1px solid white;
+}
