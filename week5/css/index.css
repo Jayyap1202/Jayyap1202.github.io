@@ -39,6 +39,9 @@
 
 .row {
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+
 }
 
 .column {
@@ -62,6 +65,8 @@
 
 .row2 {
     display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .column2 {
@@ -72,4 +77,27 @@
     .column {
         width: 100%;
     }
+}
+
+.row3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.column3 {
+    width: 33.33%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+    text-align: center;
 }
