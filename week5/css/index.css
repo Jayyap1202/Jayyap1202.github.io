@@ -36,3 +36,25 @@
     background-color: #ddd;
     color: black;
 }
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 33.33%;
+}
+
+#column1 {
+    width: 25%;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
