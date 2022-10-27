@@ -58,3 +58,18 @@
         width: 100%;
     }
 }
+
+
+.row2 {
+    display: flex;
+}
+
+.column2 {
+    width: 33.33%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
