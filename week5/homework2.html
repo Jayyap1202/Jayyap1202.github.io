@@ -5,6 +5,9 @@
     <title>Homework2</title>
     <link rel="stylesheet" type="text/css" href="css/homework2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 
 </head>
 
@@ -24,9 +27,48 @@
             </div>
         </div>
         <div class="slideshow">
-            <img src="i" </div>
+            <img class="slide" src="img/poco_c40.png" style="width : 100%" alt="Poco C40">
+            <img class="slide" src="img/poco_f4.png" style="width : 100%" alt="Poco F4">
+            <img class="slide" src="img/poco_m4pro.png" style="width : 100%" alt="Poco M4 Pro">
+            <img class="slide" src="img/poco_x4gt.png" style="width : 100%" alt="Poco X4 GT">
         </div>
 
+        <div class="row">
+            <h1 id="about">About<br>POCO</h1>
+            <p id="text">POCO is an independent brand born out of Xiaomi Corporation.
+                As of now, POCO has entered more than 35 global markets within three years.
+                In 2020, the brand has shipped over 9 million POCO phones globally.
+                The first product was released in 2018 – POCO F1 – swiftly propelled the brand in popularity among
+                technology enthusiasts and media,
+                all thanks to its incredible performance, reaching over 2.2 million shipments.
+                Currently, POCO has an independent product, sales and marketing team, and shares resources from Xiaomi
+                in manufacturing and after-sales.</p>
+            <div class="sidebar">
+                <div>
+                    <h3>Product</h3>
+                    <a href="#">Poco C40</a>
+                    <a href="#">Poco F4</a>
+                    <a href="#">Poco M4 Pro</a>
+                    <a href="#">Poco X4 GT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slide");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+        } </script>
 </body>
 
 </html>
