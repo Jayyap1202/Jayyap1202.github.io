@@ -9,7 +9,6 @@
     text-align: center;
     padding: 20px;
     border: 2px solid black;
-
 }
 
 #name {
@@ -29,7 +28,6 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
 }
 
 .topnav a:hover {
@@ -41,7 +39,18 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+}
 
+.row2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.row3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .column {
@@ -52,7 +61,34 @@
     width: 25%;
 }
 
-@media screen and (max-width: 600px) {
+.column2 {
+    width: 33.33%;
+}
+
+.column3 {
+    width: 33.33%;
+}
+
+@media screen and (max-width: 800px) {
+    .row {
+        flex-direction: wrap;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    #column1 {
+        width: 100%;
+    }
+
+    .column2 {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
     .row {
         flex-direction: column;
     }
@@ -60,39 +96,11 @@
     .column {
         width: 100%;
     }
-}
 
-
-.row2 {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.column2 {
-    width: 33.33%;
-}
-
-@media screen and (max-width: 600px) {
-    .column {
+    #column1 {
         width: 100%;
     }
-}
 
-.row3 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.column3 {
-    width: 33.33%;
-}
-
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
 }
 
 .footer {
