@@ -1,0 +1,22 @@
+#container {
+    background-color: #87CEFA;
+    max-width: 1024px;
+    margin: auto;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    padding: 10px;
+}
+
+#phone {
+    text-align: right;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 5px;
+    margin: 10px;
+}
