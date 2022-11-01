@@ -33,9 +33,19 @@
 .menu a {
     color: black;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     padding: 8px 16px;
     text-decoration: none;
+}
+
+.slide {
+    display: none;
+}
+
+#title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    margin-bottom: 1px;
 }
 
 .feat {
@@ -55,4 +65,59 @@
     font-size: 20px;
     padding: 10px;
     width: 23%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about {
+    margin-top: 10%;
+    margin-left: 60px;
+    margin-right: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+}
+
+#text {
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 0px solid white;
+    font-size: 24px;
+    width: 60%;
+    padding: 15px;
+    line-height: 32px;
+}
+
+.sidebar {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 20%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    border: 0px;
+}
+
+.sidebar a {
+
+    text-align: center;
+    font-size: 20px;
+    padding: 12px 12px;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.footer {
+    border: 1px solid black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 20px;
+
 }
