@@ -19,7 +19,39 @@
                 <h3 id="phone">011-11723353</h3>
             </div>
         </div>
+        <div class="menu">
+            <div>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Character</a>
+                <a href="#">Chapter</a>
+                <a href="#">Movie</a>
+            </div>
+        </div>
+        <div class="slideshow">
+            <img class="slide" src="img/strawhat.jpg" style="width : 100%" alt="Straw Hat Pirate">
+            <img class="slide" src="img/strawhat.jpeg" style="width : 100%" alt="Straw Hat Pirate">
+            <img class="slide" src="img/4emperor.jpg" style="width : 100%" alt="4 Emperor">
+            <img class="slide" src="img/emperor.jpg" style="width : 100%" alt="4 Emperor">
+            <img class="slide" src="img/3general.jpeg" style="width : 100%" alt="3 Generals">
+        </div>
     </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slide");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+        } </script>
 </body>
 
 </html>
