@@ -37,3 +37,22 @@
     padding: 8px 16px;
     text-decoration: none;
 }
+
+.feat {
+    display: flex;
+    justify-content: space-between;
+}
+
+#feat1,
+#feat2,
+#feat3,
+#feat4 {
+    margin: 3%;
+    border: 2px solid white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    line-height: 26px;
+    font-size: 20px;
+    padding: 10px;
+    width: 23%;
+}
