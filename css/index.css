@@ -141,3 +141,23 @@
     float: left;
     padding: 10px 10px;
 }
+
+@media screen and(max-width: 800px) {
+    content {
+        flex-direction: column;
+    }
+
+    #menu {
+        width: 100%;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    #contact {
+        width: 100%;
+    }
+
+
+}
