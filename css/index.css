@@ -59,11 +59,14 @@
     font-size: 20px;
     display: flex;
     justify-content: space-around;
+    font-family: 'Nanum Gothic', sans-serif;
+
 }
 
 .content a {
     text-decoration: none;
 }
+
 
 .button1 {
     background-color: azure;
@@ -74,13 +77,44 @@
     padding: 10px 10px;
     font-size: 20px;
     width: 110px;
+    cursor: pointer;
 }
 
+.button_drop {
+    position: relative;
+    display: inline-block;
+}
 
-.button1:hover {
+.button_drop_content {
+    display: none;
+    position: absolute;
+    background-color: azure;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.button_drop_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.button_drop_content a:hover {
+    background-color: #f1f1f1
+}
+
+.button_drop:hover .button_drop_content {
+    display: block;
+}
+
+.button_drop:hover .button1 {
     background-color: grey;
     color: white;
+
 }
+
 
 #title {
     font-family: 'Oswald', sans-serif;
