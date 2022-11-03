@@ -16,7 +16,7 @@
 
 #img {
     width: 100%;
-    height: 680px;
+    height: 600px;
 }
 
 #title {
@@ -25,4 +25,8 @@
     width: 100%;
     color: white;
     text-align: center;
+}
+
+#subtitle {
+    word-spacing: 30px;
 }
