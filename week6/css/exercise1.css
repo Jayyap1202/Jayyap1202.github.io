@@ -16,5 +16,13 @@
 
 #img {
     width: 100%;
-    height: 100%;
+    height: 680px;
+}
+
+#title {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
