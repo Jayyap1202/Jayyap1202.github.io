@@ -7,7 +7,45 @@
 </head>
 
 <body>
+    <div class="grid-container">
+        <div class="logo"><img src="img/poco_logo.png" height="40" alt="Poco_Logo"></div>
+        <div class="menu">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">POCO COMMUNITY</a>
+        </div>
+        <div class="slideshow">
+            <img class="slide" src="img/poco_c40.jpg" style="width : 100%" alt="Poco C40">
+            <img class="slide" src="img/poco_f4.jpg" style="width : 100%" alt="Poco F4">
+            <img class="slide" src="img/poco_m4pro.jpg" style="width : 100%" alt="Poco M4 Pro">
+            <img class="slide" src="img/poco_x4gt.jpg" style="width : 100%" alt="Poco X4 GT">
+        </div>
+        <div class="feat1">
+            <h3>The fastest growing brand in India for the second consecutive quarter of 2021.</h3>
+        </div>
+        <div class="feat2"></div>
+        <div class="feat3"></div>
+        <div class="sidebar"></div>
+        <div class="content"></div>
+        <div class="footer"></div>
 
+
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slide");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+        } </script>
 </body>
 
 </html>
