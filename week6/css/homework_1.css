@@ -6,10 +6,48 @@
     background-image: url("../img/shape3.png");
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: auto;
+    background-size: 50%;
 }
 
 #menubar {
     display: flex;
     justify-content: space-between;
+}
+
+#title {
+    display: flex;
+    margin-left: 110px;
+}
+
+#menu {
+    margin-top: 30px;
+    margin-right: 160px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 16px 18px;
+    font-size: 14px;
+}
+
+.subtitle {
+    display: grid;
+    grid-template-areas:
+        'icon content1 content1 content1 img1 img1 img1';
+    gap: 10px;
+    padding: 10px;
+}
+
+#icon {
+    grid-area: icon;
+}
+
+
+#content1 {
+    grid-area: content1;
+}
+
+#img1 {
+    grid-area: img1;
 }
