@@ -29,6 +29,7 @@
 
 #menu a {
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     color: white;
     padding: 14px 14px;
     font-size: 14px;
@@ -59,4 +60,27 @@
     grid-area: img1;
     margin-top: 15%;
     margin-left: 40%;
+}
+
+#title1 {
+    font-family: 'Roboto', sans-serif;
+    color: #404858;
+    margin-bottom: 1px;
+    font-weight: 400;
+}
+
+#title2 {
+    font-family: 'Roboto', sans-serif;
+    color: #42495b;
+    font-size: 58px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 700;
+}
+
+#text1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1px;
+    color: #51545d;
+
 }
