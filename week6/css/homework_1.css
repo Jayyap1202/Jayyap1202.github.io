@@ -1,3 +1,7 @@
+.container {
+    position: relative;
+}
+
 .header {
     position: relative;
     background-image: url("../img/shape3.png");
@@ -81,7 +85,7 @@
     color: #51545d;
 }
 
-#button {
+.button {
     background-image: url("../img/rectangle.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,10 +113,35 @@
 
 .biography {
     display: flex;
-    justify-content: space-between;
+}
+
+.img2 {
+    margin: auto;
 
 }
 
-.img2 {}
+.content2 {
+    background-image: url("../img/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
 
-.content2 {}
+#title3 {
+    color: #8681d2;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#title4 {
+    color: #42495b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#text2 {
+    color: #51545d;
+}
