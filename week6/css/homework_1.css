@@ -151,17 +151,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.service_title {
-    position: relative;
-    left: 140px;
-}
+.service_title {}
 
-.box_container {}
+.box_container {
+    background-image: url("../img/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .row1,
 .row2 {
     display: flex;
     justify-content: space-around;
+
 }
 
 .box1,
@@ -172,5 +174,25 @@
 .box6 {
     border: 1px solid white;
     border-radius: 30px;
-    width: 200px;
+    width: 340px;
+    padding: 12px 14px;
+    box-shadow: 0 3px 5px 5px #f4f4fc;
+}
+
+.box_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1 {
+    background-image: url("../img/rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 8px 16px;
 }
