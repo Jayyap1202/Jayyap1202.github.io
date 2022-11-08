@@ -113,6 +113,10 @@
 
 .biography {
     display: flex;
+    background-image: url("../img/background1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
 }
 
 .img2 {
@@ -121,9 +125,6 @@
 }
 
 .content2 {
-    background-image: url("../img/background1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: auto;
     margin-left: 50px;
     font-family: 'Roboto', sans-serif;
