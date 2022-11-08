@@ -1,31 +1,29 @@
-.container {
-    position: relative;
-}
-
 .header {
+    position: relative;
     background-image: url("../img/shape3.png");
     background-repeat: no-repeat;
     background-position: right top;
     background-size: contain;
     display: grid;
     grid-template-areas:
-        'title title title title menu menu menu'
-        'icon content1 content1 content1 img1 img1 img1'
-        'mouse mouse mouse mouse mouse mouse mouse';
+        'title title title menu menu menu'
+        'icon content1 content1 content1 img1 img1'
+        'mouse mouse mouse mouse mouse mouse';
 }
 
 .title {
     grid-area: title;
     display: flex;
     position: absolute;
-    left: 10%;
+    left: 160px;
 }
 
 .menu {
     grid-area: menu;
     position: absolute;
-    right: 10%;
-    top: 10%;
+    top: 40px;
+    right: 90px;
+
 }
 
 .menu a {
@@ -40,22 +38,25 @@
 .icon {
     grid-area: icon;
     position: absolute;
-    top: 50%;
-    left: 5%;
+    top: 280px;
+    left: 70px;
 }
 
 
 .content1 {
     grid-area: content1;
     position: absolute;
-    top: 30%;
-    left: 10%;
+    top: 140px;
+
 }
 
 .img1 {
     grid-area: img1;
-    margin-top: 15%;
-    margin-left: 40%;
+    position: relative;
+    top: 70px;
+    left: 260px;
+    width: 400px;
+
 }
 
 #title1 {
@@ -84,17 +85,17 @@
     background-image: url("../img/rectangle.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: auto;
     font-family: 'Roboto', sans-serif;
     color: white;
     cursor: pointer;
     font-size: 14px;
     border-radius: 20px;
-    padding: 9px 24px;
+    padding: 8px 16px;
 }
 
 .mouse {
     grid-area: mouse;
+    height: 70px;
 }
 
 #mouse_icon {
@@ -105,3 +106,13 @@
     left: 50%;
     box-shadow: 0 5px 3px 3px #ede7e7;
 }
+
+.biography {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img2 {}
+
+.content2 {}
