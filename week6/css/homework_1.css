@@ -180,6 +180,7 @@
     border-radius: 30px;
     background-color: white;
     width: 220px;
+    height: 260px;
     padding: 12px 14px;
     box-shadow: 0 3px 5px 5px #f4f4fc;
     position: relative;
@@ -209,4 +210,85 @@
 
 .box_text {
     font-size: 10px;
+}
+
+.pricing {
+    background-color: #eceaff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pricing_title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px 12px;
+    text-align: center;
+}
+
+.pricing_box {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pricing_box1,
+.pricing_box2,
+.pricing_box3 {
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    width: 220px;
+    height: 260px;
+    padding: 12px 14px;
+    box-shadow: 0 3px 5px 5px #f4f4fc;
+    position: relative;
+
+}
+
+.button2 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 8px 16px;
+    position: absolute;
+    left: 30%;
+
+}
+
+.button2:hover {
+    background-image: url("../img/rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.pricing_title1,
+.pricing_title2,
+.pricing_title3 {
+    font-size: 20px;
+    text-align: center;
+    color: #42495b;
+    margin-bottom: 50px;
+}
+
+.pricing_text1,
+.pricing_text2,
+.pricing_text3 {
+    font-size: 12px;
+    text-align: center;
+    color: #51545d;
+    margin-bottom: 30px;
+}
+
+.pricing_tag1,
+.pricing_tag2,
+.pricing_tag3 {
+    text-align: center;
+    color: rgb(3, 3, 202);
+    font-size: 18px;
+    margin-bottom: 30px;
 }
