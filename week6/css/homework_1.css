@@ -14,21 +14,21 @@
         'mouse mouse mouse mouse mouse mouse mouse';
 }
 
-#title {
+.title {
     grid-area: title;
     display: flex;
     position: absolute;
     left: 10%;
 }
 
-#menu {
+.menu {
     grid-area: menu;
     position: absolute;
     right: 10%;
     top: 10%;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -37,7 +37,7 @@
 }
 
 
-#icon {
+.icon {
     grid-area: icon;
     position: absolute;
     top: 50%;
@@ -45,14 +45,14 @@
 }
 
 
-#content1 {
+.content1 {
     grid-area: content1;
     position: absolute;
     top: 30%;
     left: 10%;
 }
 
-#img1 {
+.img1 {
     grid-area: img1;
     margin-top: 15%;
     margin-left: 40%;
@@ -81,10 +81,27 @@
 }
 
 #button {
-    background-color: #483fda;
+    background-image: url("../img/rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
     font-family: 'Roboto', sans-serif;
     color: white;
-    border-radius: 10px;
-    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 9px 24px;
+}
 
+.mouse {
+    grid-area: mouse;
+}
+
+#mouse_icon {
+    border: 15px solid white;
+    border-color: white;
+    border-radius: 46%;
+    position: absolute;
+    left: 50%;
+    box-shadow: 0 5px 3px 3px #ede7e7;
 }
