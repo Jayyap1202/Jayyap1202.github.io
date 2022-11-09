@@ -374,5 +374,6 @@
 .contact_bar {
     grid-area: contact_bar;
     display: flex;
-    background justify-content: space-around;
+    background-image: url("../img/shape1.png");
+    justify-content: space-around;
 }
