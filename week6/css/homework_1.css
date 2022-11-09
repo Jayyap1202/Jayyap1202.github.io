@@ -331,6 +331,7 @@
     grid-area: searchbar;
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 80px;
 }
 
 #subtitle {
@@ -374,6 +375,33 @@
 .contact_bar {
     grid-area: contact_bar;
     display: flex;
-    background-image: url("../img/shape1.png");
     justify-content: space-around;
+    background-color: blue;
+    margin-bottom: 40px;
+}
+
+#logo1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+#logo_text {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icon2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icon2_icon {
+    padding: 2px 10px;
 }
