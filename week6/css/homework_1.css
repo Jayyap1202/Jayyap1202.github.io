@@ -384,7 +384,8 @@
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 24px;
-    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 8px;
     text-align: center;
 }
 
@@ -404,4 +405,26 @@
 
 .icon2_icon {
     padding: 2px 10px;
+}
+
+.row_title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.quick_content,
+.hour_content {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 10px;
+    line-height: 22px;
+}
+
+.contact_column {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 10px;
+    line-height: 22px;
 }
