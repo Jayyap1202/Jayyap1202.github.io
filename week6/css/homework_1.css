@@ -378,7 +378,12 @@
     grid-area: contact_bar;
     display: flex;
     justify-content: space-evenly;
-    background-color: blue;
+    background-image: url("../img/shape2.png"), url("../img/shape1.png");
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    background-position: 100%;
+
+
     margin-bottom: 40px;
     padding: 20px 60px;
 }
