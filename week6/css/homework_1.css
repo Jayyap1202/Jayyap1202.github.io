@@ -1,7 +1,3 @@
-.container {
-    position: relative;
-}
-
 .header {
     position: relative;
     background-image: url("../img/shape3.png");
@@ -10,23 +6,24 @@
     background-size: contain;
     display: grid;
     grid-template-areas:
-        'title title title menu menu menu'
+        'icon title title menu menu menu'
         'icon content1 content1 content1 img1 img1'
         'mouse mouse mouse mouse mouse mouse';
+
 }
 
 .title {
     grid-area: title;
     display: flex;
     position: absolute;
-    left: 170px;
+    left: 0;
 }
 
 .menu {
     grid-area: menu;
     position: absolute;
     top: 40px;
-    right: 90px;
+    right: 140px;
 
 }
 
@@ -55,11 +52,14 @@
 
 .img1 {
     grid-area: img1;
-    position: relative;
-    top: 70px;
-    left: 260px;
-    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 
+}
+
+#img_group {
+    height: 400px;
 }
 
 #title1 {
@@ -91,6 +91,7 @@
     font-family: 'Roboto', sans-serif;
     color: white;
     cursor: pointer;
+    border: none;
     font-size: 14px;
     border-radius: 20px;
     padding: 8px 16px;
@@ -117,14 +118,19 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+    display: grid;
+    grid-template-areas:
+        'img2 img2 img2 content2 content2 content2';
 }
 
 .img2 {
+    grid-area: img2;
     margin: auto;
 
 }
 
 .content2 {
+    grid-area: content2;
     margin: auto;
     margin-left: 50px;
     font-family: 'Roboto', sans-serif;
@@ -149,14 +155,24 @@
 
 .service {
     font-family: 'Roboto', sans-serif;
+    padding: 100px;
+    display: grid;
+    grid-template-areas:
+        'service_title service_title service_title service_title service_title service_title'
+        'box_container box_container box_container box_container box_container box_container';
 }
 
-.service_title {}
+.service_title {
+    grid-area: service_title;
+    margin-left: 90px;
+}
+
 
 .box_container {
     background-image: url("../img/background1.png");
     background-repeat: no-repeat;
     background-size: cover;
+    grid-area: box_container;
 
 }
 
@@ -200,6 +216,7 @@
     color: white;
     cursor: pointer;
     font-size: 8px;
+    border: none;
     border-radius: 20px;
     padding: 4px 12px;
     position: absolute;
@@ -215,16 +232,23 @@
 .pricing {
     background-color: #eceaff;
     font-family: 'Roboto', sans-serif;
+    padding: 20px 100px 50px 100px;
+    display: grid;
+    grid-template-areas:
+        'pricing_title pricing_title pricing_title pricing_title pricing_title pricing_title'
+        'pricing_box pricing_box pricing_box pricing_box pricing_box pricing_box';
 }
 
 .pricing_title {
-    margin-top: 30px;
+    grid-area: pricing_title;
+
     margin-bottom: 30px;
     padding: 12px 12px;
     text-align: center;
 }
 
 .pricing_box {
+    grid-area: pricing_box;
     display: flex;
     justify-content: space-around;
 
@@ -241,6 +265,7 @@
     padding: 12px 14px;
     box-shadow: 0 3px 5px 5px #f4f4fc;
     position: relative;
+    margin-bottom: 80px;
 
 }
 
@@ -263,6 +288,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    border: none;
 }
 
 
@@ -288,7 +314,65 @@
 .pricing_tag2,
 .pricing_tag3 {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
     color: rgb(3, 3, 202);
     font-size: 18px;
     margin-bottom: 30px;
+}
+
+.footer {
+    display: grid;
+    grid-template-areas:
+        'searchbar searchbar searchbar searchbar searchbar searchbar'
+        'contact_bar contact_bar contact_bar contact_bar contact_bar contact_bar';
+}
+
+.searchbar {
+    grid-area: searchbar;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#subtitle {
+    color: #42495b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+
+}
+
+.search_button {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.searchbar input[type=text] {
+    font-size: 10px;
+    border: 0px solid #ccc;
+    padding: 10px 160px 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #f6f7fb;
+    box-shadow: 0 3px 5px 5px #f4f4fc;
+    opacity: 0.8;
+}
+
+.subscribe {
+    background-image: url("../img/rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 6px 12px;
+}
+
+.contact_bar {
+    grid-area: contact_bar;
+    display: flex;
+    background justify-content: space-around;
 }
