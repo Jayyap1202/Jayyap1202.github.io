@@ -327,13 +327,19 @@
     grid-template-areas:
         'searchbar searchbar searchbar searchbar searchbar searchbar'
         'contact_bar contact_bar contact_bar contact_bar contact_bar contact_bar';
+    background-image: url("../img/shape2.png"), url("../img/shape1.png");
+    background-repeat: no-repeat;
+    background-size: 23 01.9px 1759px, 2712px 2390px;
+    background-position: 30% 20%, 90% 30%;
+
+
 }
 
 .searchbar {
     grid-area: searchbar;
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 160px;
 }
 
 #subtitle {
@@ -378,21 +384,18 @@
     grid-area: contact_bar;
     display: flex;
     justify-content: space-evenly;
-    background-image: url("../img/shape2.png"), url("../img/shape1.png");
-    background-repeat: no-repeat;
-    background-size: cover, contain;
-    background-position: 100%;
 
 
+    margin-top: 100px;
     margin-bottom: 40px;
-    padding: 20px 60px;
+    padding: 60px 60px;
 }
 
 #logo1 {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 24px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 8px;
     text-align: center;
 }
