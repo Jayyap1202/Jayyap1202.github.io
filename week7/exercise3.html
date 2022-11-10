@@ -12,29 +12,37 @@
         <form class="form" name="registration_form">
             <fieldset>
                 <legend>
-                    <h6>Farmer Registration Form</h6>
+                    <h6 class="font_title">Farmer Registration Form</h6>
                 </legend>
-                <label>Name:</label><br>
+                <label class="font">Name:</label><br>
                 <input type="text" name="fname" placeholder="First">
                 <input type="text" name="lname" placeholder="Last">
                 <div class="form_layout">
-                    <label>Email:</label>
-                    <label>Phone:</label>
+                    <div>
+                        <label class="font">Email:</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div>
+                        <label class="font">Phone:</label>
+                        <input type="tel" name="phone" placeholder="### ### ####"><br>
+                    </div>
                 </div>
-                <input type="email" name="email">
-                <input type="tel" name="phone" placeholder="### ### ####"><br>
-                <label>Gender</label><br>
+
+
+                <label class="font">Gender</label><br>
                 <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label><br>
+                <label class="font" for="male">Male</label><br>
                 <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>
+                <label class="font" for="female">Female</label><br>
                 <input type="radio" id="other" name="gender" value="other">
-                <label for="other">Other</label><br>
-                <label>Former Address</label><br>
-                <input type="text" name="address" placeholder="Street Address"><br><br>
-                <input type="text" name="address2" placeholder="Street Address Line2"><br><br>
+                <label class="font" for="other">Other</label><br>
+                <label class="font">Former Address</label><br>
+                <div class="address_font">
+                    <input type="text" name="address" placeholder="Street Address"><br>
+                    <input type="text" name="address2" placeholder="Street Address Line2"><br>
+                </div>
                 <input type="text" name="city" placeholder="City">
-                <input type="text" name="region" placeholder="Region"><br><br>
+                <input type="text" name="region" placeholder="Region"><br>
                 <input type="text" name="postal" placeholder="Postal/Zip Code">
 
                 <select name="country">
@@ -285,15 +293,8 @@
                     <option value="Yemen">Yemen</option>
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
-                </select>
-
-
-
-
-
-
-
-
+                </select><br>
+                <input type="submit" value="Send">
 
 
             </fieldset>

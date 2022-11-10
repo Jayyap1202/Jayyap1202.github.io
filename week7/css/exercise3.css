@@ -1,9 +1,56 @@
+.border {
+    border-radius: 20px;
+}
+
 .form {
-    width: 500px;
+    width: 29%;
     background-color: #e0f4ec;
 }
 
 .form_layout {
     display: flex;
+}
+
+
+
+.font_title {
+    font-size: 18px;
+    color: #598058;
+    margin: 20px 0;
+}
+
+.font {
+    font-size: 14px;
+    color: #598058;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    border: 1px solid #c0dacd;
+    border-radius: 2px;
+    margin: 10px 0;
+    padding: 4px 30px 4px 2px;
 
 }
+
+
+select {
+    border: 1px solid #c0dacd;
+    border-radius: 2px;
+    margin: 10px 0;
+    padding: 4px 30px 4px 2px;
+    width: 195px;
+}
+
+
+.address_font input[type=text] {
+    padding: 4px 230px 4px 2px;
+}
+
+
+input[type=radio] {
+    padding: 6px 6px;
+}
+
+input[type=submit] {}
