@@ -189,6 +189,7 @@ body {
 #food_title {
     text-align: center;
     color: #F4F9F9;
+    padding: 20px 0;
 }
 
 .food_box {
@@ -220,14 +221,125 @@ body {
 
 .food_name1 {
     position: absolute;
-    top: 35px;
-    left: 48%;
+    top: 100px;
+    left: 610px;
+    border: none;
+    background-color: black;
+    color: #F4F9F9;
+    border-radius: 20px;
+
 }
 
 .food_name2 {
     position: absolute;
+    left: 200px;
+    top: 455px;
+    border: none;
+    background-color: black;
+    color: #F4F9F9;
+    border-radius: 20px;
+
 }
 
 .food_name3 {
     position: absolute;
+    right: 200px;
+    top: 455px;
+    border: none;
+    background-color: black;
+    color: #F4F9F9;
+    border-radius: 20px;
+
+}
+
+.food_text {
+    margin: 0;
+    padding: 5px 80px;
+    font-size: 24px;
+}
+
+.food_container2 {
+    margin: 50px 0 50px 0;
+}
+
+.food_box2 {
+    border: none;
+    background-color: #F4F9F9;
+    width: 1320px;
+    margin: auto;
+    padding: 50px 0;
+    position: relative;
+}
+
+.food3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.food4 {
+    display: flex;
+    justify-content: center;
+}
+
+.rice_name1 {
+    position: absolute;
+    bottom: 700px;
+    left: 610px;
+    border: none;
+    background-color: black;
+    color: #F4F9F9;
+    border-radius: 20px;
+}
+
+
+.rice_name2 {
+    position: absolute;
+    bottom: 640px;
+    left: 220px;
+    border: none;
+    background-color: black;
+    color: #F4F9F9;
+    border-radius: 20px;
+}
+
+.rice_name3 {
+    position: absolute;
+    bottom: 640px;
+    right: 220px;
+    border: none;
+    background-color: black;
+    color: #F4F9F9;
+    border-radius: 20px;
+}
+
+.rice_name4 {
+    position: absolute;
+    bottom: 310px;
+    left: 560px;
+    border: none;
+    background-color: black;
+    color: #F4F9F9;
+    border-radius: 20px;
+}
+
+.rice_text {
+    margin: 0;
+    padding: 5px 80px;
+    font-size: 24px;
+}
+
+.more_button {
+    position: absolute;
+    bottom: 0px;
+    left: 670px;
+}
+
+#button3 {
+    background-color: #FFECEF;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px 24px;
+    right: 20px;
+    bottom: 10px;
+    color: black;
 }
