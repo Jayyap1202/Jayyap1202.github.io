@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: 'Epilogue', sans-serif;
+
 }
 
 .container {
@@ -35,12 +37,12 @@ body {
 }
 
 .contact {
-    font-size: 32px;
-    text-align: center;
-    padding: 0;
+    font-size: 26px;
+    text-align: left;
+    padding: 5px 0 0 5px;
     border: 0px;
     background-color: black;
-    width: 160px;
+    width: 180px;
     height: 42px;
     margin: 26px 0;
 }
@@ -78,7 +80,7 @@ body {
     border: 0px;
     width: 1280px;
     margin: auto;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 28px;
     word-spacing: 2px;
 }
@@ -97,7 +99,7 @@ body {
     text-align: center;
     margin: 140px 120px;
     color: #F4F9F9;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 28px;
     word-spacing: 2px;
 }
@@ -342,4 +344,61 @@ body {
     right: 20px;
     bottom: 10px;
     color: black;
+}
+
+.footer_container {
+    background-color: #F4F9F9;
+
+}
+
+.footer_row1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.footer_logo {
+    padding: 20px 0 20px 0;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_about a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_socialmedia {
+    padding-top: 25px;
+}
+
+.socialmedia {
+    border: none;
+    border-radius: 80px;
+    background-color: black;
+    padding: 8px 8px;
+}
+
+.footer_line {
+    border-top: 1px solid black;
+    width: 1320px;
+    margin: auto;
+}
+
+.footer_privacy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#copyright {
+    margin-left: 60px;
+}
+
+#terms {
+    margin-right: 60px;
 }
