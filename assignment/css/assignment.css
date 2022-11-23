@@ -120,12 +120,54 @@ body {
     font-size: 40px;
 }
 
+.place_row {
+    position: relative;
+}
+
 .place_location {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 
 }
 
 .place_img {
     border-radius: 40px;
+}
+
+.place1 {
+    position: absolute;
+    left: 150px;
+    bottom: 36px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px 40px;
+
+}
+
+.place2 {
+    position: absolute;
+    left: 620px;
+    bottom: 36px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px 40px;
+}
+
+.place3 {
+    position: absolute;
+    left: 1110px;
+    bottom: 36px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px 40px;
+
+}
+
+.place_text {
+    margin: 0;
+    font-size: 18px;
 }
