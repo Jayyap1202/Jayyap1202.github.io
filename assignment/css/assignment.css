@@ -181,3 +181,53 @@ body {
     right: 20px;
     bottom: 10px;
 }
+
+.food {
+    position: relative;
+}
+
+#food_title {
+    text-align: center;
+    color: #F4F9F9;
+}
+
+.food_box {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: #F4F9F9;
+    width: 1320px;
+    margin: auto;
+    padding: 50px 0;
+    position: relative;
+}
+
+.food1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.food2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.food_img {
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.food_name1 {
+    position: absolute;
+    top: 35px;
+    left: 48%;
+}
+
+.food_name2 {
+    position: absolute;
+}
+
+.food_name3 {
+    position: absolute;
+}
