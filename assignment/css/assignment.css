@@ -127,7 +127,7 @@ body {
 .place_location {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 
 }
 
@@ -138,7 +138,7 @@ body {
 .place1 {
     position: absolute;
     left: 150px;
-    bottom: 36px;
+    bottom: 80px;
     border: none;
     background-color: white;
     border-radius: 20px;
@@ -149,7 +149,7 @@ body {
 .place2 {
     position: absolute;
     left: 620px;
-    bottom: 36px;
+    bottom: 80px;
     border: none;
     background-color: white;
     border-radius: 20px;
@@ -159,7 +159,7 @@ body {
 .place3 {
     position: absolute;
     left: 1110px;
-    bottom: 36px;
+    bottom: 80px;
     border: none;
     background-color: white;
     border-radius: 20px;
@@ -170,4 +170,14 @@ body {
 .place_text {
     margin: 0;
     font-size: 18px;
+}
+
+#button2 {
+    background-color: #FFECEF;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 12px 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
 }
