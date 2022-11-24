@@ -269,7 +269,6 @@ body {
     width: 1320px;
     margin: auto;
     padding: 50px 0;
-    position: relative;
 }
 
 .food3 {
@@ -283,50 +282,56 @@ body {
 }
 
 .rice_name1 {
-    position: absolute;
-    bottom: 700px;
-    left: 620px;
     border: none;
     background-color: black;
     color: #F4F9F9;
     border-radius: 20px;
+    width: 200px;
+    margin: auto;
+    position: relative;
+    top: 15px;
 }
 
 
 .rice_name2 {
-    position: absolute;
-    bottom: 640px;
-    left: 220px;
     border: none;
     background-color: black;
     color: #F4F9F9;
     border-radius: 20px;
+    width: 320px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+
 }
 
 .rice_name3 {
-    position: absolute;
-    bottom: 640px;
-    right: 220px;
     border: none;
     background-color: black;
     color: #F4F9F9;
     border-radius: 20px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 10px;
 }
 
 .rice_name4 {
-    position: absolute;
-    bottom: 310px;
-    left: 560px;
     border: none;
     background-color: black;
     color: #F4F9F9;
     border-radius: 20px;
+    width: 320px;
+    margin: auto;
+    position: relative;
+    top: 10px;
 }
 
 .rice_text {
     margin: 0;
     padding: 5px 80px;
     font-size: 24px;
+    text-align: center;
 }
 
 .more_button {
