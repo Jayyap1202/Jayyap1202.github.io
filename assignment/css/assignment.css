@@ -146,7 +146,11 @@ body {
     background-color: white;
     color: black;
     position: relative;
-    top: -20px;
+    top: -15px;
+    left: 120px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 5px 0;
 
 }
 
@@ -155,7 +159,12 @@ body {
     background-color: white;
     color: black;
     position: relative;
-    top: -20px;
+    top: -15px;
+    left: 120px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 5px 0;
+
 
 }
 
@@ -164,7 +173,11 @@ body {
     background-color: white;
     color: black;
     position: relative;
-    top: -20px;
+    top: -15px;
+    left: 120px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 5px 0;
 }
 
 .place_img {
@@ -268,7 +281,7 @@ body {
     background-color: #F4F9F9;
     width: 1320px;
     margin: auto;
-    padding: 50px 0;
+    padding: 40px 0 20px 0;
 }
 
 .food3 {
@@ -337,7 +350,7 @@ body {
 .more_button {
     text-align: center;
     position: relative;
-    bottom: -20px;
+    bottom: -40px;
 }
 
 #button3 {
@@ -363,6 +376,11 @@ body {
 
 .footer_logo {
     padding: 20px 0 20px 0;
+}
+
+#footer_img {
+    width: 80px;
+    height: 80px;
 }
 
 .footer_menu a {
@@ -484,6 +502,7 @@ body {
 
     .food_box2 {
         width: 900px;
+        padding: 40px 0 20px 0;
     }
 
     .food_img {
@@ -493,21 +512,37 @@ body {
     }
 
     .place1 {
-        padding: 4px 20px;
+
+        left: 40px;
+        width: 140px;
     }
 
     .place2 {
-        padding: 4px 20px;
+
+        left: 40px;
+        width: 140px;
     }
 
     .place3 {
-        padding: 4px 20px;
+
+        left: 40px;
+        width: 140px;
     }
 
     .place_text {
         margin: 0;
-        font-size: 16px;
+        font-size: 14px;
     }
+
+    #button2 {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+
+    .place_button {
+        padding-right: 40px;
+    }
+
 
     #food_title {
         font-size: 16px;
@@ -562,7 +597,12 @@ body {
     }
 
     #title {
-        font-size: 26px;
+        font-size: 24px;
+        top: 300px;
+    }
+
+    #img1 {
+        height: 600px;
     }
 
     .text1 {
@@ -580,5 +620,108 @@ body {
 
     .food_box2 {
         width: 680px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .menu a {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    #title {
+        font-size: 20px;
+        top: 180px;
+    }
+
+    #logo_img {
+        width: 60px;
+    }
+
+    .introduction {
+        font-size: 8px;
+    }
+
+    .text1 {
+        width: 480px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+
+    .map_row {
+        flex-direction: column;
+    }
+
+    #map {
+        margin: auto;
+        border: 2px solid black;
+        width: 260px;
+        height: 200px;
+    }
+
+    #text2 {
+        width: 400px;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    #button1 {
+        font-size: 10px;
+        padding: 10px 12px;
+        margin-top: 14px;
+    }
+
+    #img1 {
+        height: 300px;
+    }
+
+
+    #place_title {
+        font-size: 20px;
+        margin: 0;
+
+        text-align: center;
+    }
+
+    .place_text {
+        margin: 0;
+        font-size: 12px;
+
+    }
+
+    .place_location1 {
+        padding: 0;
+        text-align: center;
+    }
+
+    #button1 {
+        margin: 14px;
+    }
+
+    #button2 {
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+
+    #food_title {
+        font-size: 10px;
+    }
+
+    .more_button {
+        bottom: -30px;
+    }
+
+    #button3 {
+        font-size: 10px;
+        padding: 8px 18px;
+
+    }
+
+    #footer_img {
+        width: 60px;
+        height: 60px;
     }
 }
