@@ -329,15 +329,15 @@ body {
 
 .rice_text {
     margin: 0;
-    padding: 5px 80px;
+    padding: 5px 40px;
     font-size: 24px;
     text-align: center;
 }
 
 .more_button {
-    position: absolute;
-    bottom: 0px;
-    left: 670px;
+    text-align: center;
+    position: relative;
+    bottom: -20px;
 }
 
 #button3 {
@@ -466,7 +466,7 @@ body {
 
     #place_title {
         font-size: 28px;
-        margin-left: 180px;
+        margin-left: 60px;
         text-align: left;
     }
 
@@ -488,29 +488,20 @@ body {
 
     .food_img {
         border-radius: 20px;
-        padding: 10px 10px;
         width: 250px;
         height: 140px;
     }
 
     .place1 {
-        left: 215px;
-        bottom: 90px;
         padding: 4px 20px;
-
     }
 
     .place2 {
-        left: 535px;
-        bottom: 90px;
         padding: 4px 20px;
     }
 
     .place3 {
-        left: 870px;
-        bottom: 90px;
         padding: 4px 20px;
-
     }
 
     .place_text {
@@ -518,8 +509,76 @@ body {
         font-size: 16px;
     }
 
+    #food_title {
+        font-size: 16px;
+    }
+
+    .food_name1 {
+        width: 160px;
+    }
+
+    .food_name2 {
+        width: 200px;
+    }
+
+    .food_name3 {
+        width: 200px;
+    }
+
+    .food_text {
+        font-size: 16px;
+    }
+
+    .rice_name1 {
+        width: 160px;
+    }
+
+    .rice_name2 {
+        width: 200px;
+    }
+
+    .rice_name3 {
+        width: 200px;
+    }
+
+    .rice_name4 {
+        width: 200px;
+    }
+
+    .rice_text {
+        font-size: 16px;
+
+    }
 
     .footer_line {
-        width: 900px;
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu a {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    #title {
+        font-size: 26px;
+    }
+
+    .text1 {
+        width: 680px;
+        font-size: 14px;
+    }
+
+    #text2 {
+        font-size: 14px;
+    }
+
+    .food_box {
+        width: 680px;
+    }
+
+    .food_box2 {
+        width: 680px;
     }
 }
