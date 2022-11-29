@@ -74,6 +74,7 @@ body {
     font-size: 20px;
     line-height: 28px;
     word-spacing: 2px;
+    font-weight: 200;
 }
 
 .map_row {
@@ -95,6 +96,7 @@ body {
     font-size: 20px;
     line-height: 28px;
     word-spacing: 2px;
+    font-weight: 200;
 }
 
 #button1 {
