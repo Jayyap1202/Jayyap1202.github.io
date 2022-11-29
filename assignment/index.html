@@ -3,8 +3,9 @@
 
 <head>
     <title>Individual Assignment</title>
-    <link rel="stylesheet" href="css/assignment.css">
+    <link rel="stylesheet" href="css/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/9cc7435f15.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@200;400&display=swap" rel="stylesheet">
@@ -17,16 +18,17 @@
             <div class="logo">
                 <img id="logo_img" src="img/kt_logo.png" alt="Terengganu Logo">
             </div>
-            <div class="menu">
+            <div class="menu" id="myMenu">
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Place</a>
                 <a href="#">Food</a>
-            </div>
-            <div class="contact">
-                <img id="phone_img" src="img/phone.png" alt="Phone contact">
                 <a href="#">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
             </div>
+
         </div>
         <div class="img">
             <img id="img1" src="img/crystal_mosque_night.jpg">
@@ -111,14 +113,14 @@
                             <p class="food_text"><b>KEROPOK LEKOR</b></p>
                         </div>
                         <div>
-                            <img class="food_img" src="img/keropok_keping_putih.jpg" alt="Keropok Keping Putih">
+                            <img class="food_img" src="img/keropok_lekor2.jpg" alt="Keropok Keping Putih">
                         </div>
 
 
                     </div>
                     <div class="food2">
                         <div>
-                            <img class="food_img" src="img/keropok_lekor2.jpg" alt="Keropok Lekor (fry)">
+                            <img class="food_img" src="img/keropok_keping_putih.jpg" alt="Keropok Lekor (fry)">
                         </div>
                         <div class="food_name3">
                             <p class="food_text"><b>KEROPOK KEPING</b></p>
@@ -215,11 +217,11 @@
     </div>
     <script>
         function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
+            var x = document.getElementById("myMenu");
+            if (x.className === "menu") {
                 x.className += " responsive";
             } else {
-                x.className = "topnav";
+                x.className = "menu";
             }
         }
     </script>
