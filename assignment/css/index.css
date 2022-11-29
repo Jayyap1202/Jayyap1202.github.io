@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-    padding: 10px 0 10px 30px;
+    padding: 10px 0;
     background: #F4F9F9;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .menu {
-    font-size: 32px;
+    font-size: 20px;
     line-height: 32px;
     text-align: center;
     padding: 32px 0;
@@ -415,7 +415,12 @@ body {
     }
 
     .menu a {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    .logo {
+        padding: 10px 0;
+
     }
 
     #logo_img {
@@ -568,12 +573,20 @@ body {
     .menu a {
         padding: 0 40px;
     }
+
+    #img1 {
+        height: 700px;
+    }
+
+    #title {
+        top: 360px;
+    }
 }
 
 @media screen and (max-width: 900px) {
     .menu a {
-        font-size: 20px;
-        padding: 0 15px;
+        font-size: 14px;
+        padding: 0 25px;
     }
 
     #title {
@@ -609,7 +622,6 @@ body {
 
 @media screen and (max-width: 700px) {
     .menu a {
-        font-size: 20px;
         padding: 0 15px;
     }
 
@@ -790,6 +802,14 @@ body {
         justify-content: space-between;
     }
 
+    .logo {
+        padding: 10px 15px;
+    }
+
+    #logo_img {
+        width: 40px;
+    }
+
     .menu a {
         display: none;
     }
@@ -827,10 +847,6 @@ body {
 
     .menu {
         padding: 15px 10px 10px 10px;
-    }
-
-    #logo_img {
-        width: 40px;
     }
 
     #title {
