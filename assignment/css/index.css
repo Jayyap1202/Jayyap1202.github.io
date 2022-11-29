@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Epilogue', sans-serif;
-
 }
 
 .container {
@@ -562,6 +561,12 @@ body {
 
     .footer_line {
         width: 900px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .menu a {
+        padding: 0 40px;
     }
 }
 
