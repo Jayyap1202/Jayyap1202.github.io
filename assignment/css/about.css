@@ -337,6 +337,7 @@ body {
     font-size: 20px;
     color: #251B37;
     line-height: 28px;
+    padding-bottom: 20px;
 }
 
 #img3 {
@@ -412,5 +413,144 @@ body {
     #img3 {
         width: 240px;
         height: 140px;
+    }
+}
+
+.culture {
+    margin: 30px 80px;
+}
+
+#culture_title {
+    color: #F4F9F9;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#culture_text {
+    color: #F4F9F9;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 200;
+    padding: 20px 0 0 40px;
+}
+
+.culture_content1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.culture_content2 {
+    text-align: center;
+
+}
+
+#img4 {
+    width: 440px;
+    height: 380px;
+    border-radius: 20px;
+}
+
+#img5 {
+    width: 1280px;
+    height: 600px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:1380px) {
+    #img5 {
+        width: 1180px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    #img5 {
+        width: 1000px;
+        height: 500px;
+    }
+
+    #culture_text {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:1160px) {
+    #img4 {
+        width: 380px;
+        height: 320px;
+    }
+
+    #img5 {
+        width: 800px;
+        height: 400px;
+    }
+
+    #culture_text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #img4 {
+        width: 280px;
+        height: 240px;
+    }
+
+    #img5 {
+        width: 600px;
+        height: 300px;
+    }
+
+    #culture_text {
+        font-size: 14px;
+        padding: 0 0 0 40px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .culture {
+        margin: 0 40px;
+    }
+
+    #culture_title {
+        text-align: center;
+    }
+
+    .culture_content1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:660px) {
+    #culture_title {
+        font-size: 20px;
+    }
+
+    #img5 {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .culture {
+        margin: 0 20px;
+    }
+
+    #img4 {
+        width: 200px;
+        height: 160px;
+    }
+
+    #img5 {
+        width: 200px;
+        height: 100px;
     }
 }
