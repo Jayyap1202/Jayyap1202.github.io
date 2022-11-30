@@ -88,17 +88,23 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .header {
-        justify-content: space-between;
+    .menu.responsive {
+        position: relative;
+        padding: 40px 10px 10px 10px;
     }
 
-    .menu a {
-        display: none;
+    .menu.responsive .icon {
+        position: absolute;
+        right: 20px;
+        top: 15px;
     }
 
-    .menu a.icon {
-        float: right;
+    .menu.responsive a {
+        float: none;
         display: block;
+        text-align: right;
+
+
     }
 }
 
