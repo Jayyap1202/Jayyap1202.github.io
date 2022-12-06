@@ -184,7 +184,7 @@ body {
     }
 }
 
-.food_menu {
+.food_menu1 {
     background-color: #F4F9F9;
 }
 
@@ -224,5 +224,594 @@ body {
     height: 80px;
     border-radius: 40px;
     padding: 20px 20px;
+}
 
+.food_column {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+}
+
+.rice,
+.laksa {
+    text-align: center;
+    width: 750px;
+}
+
+.rice_img,
+.laksa_img {
+    width: 500px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.rice_title,
+.laksa_title {
+    font-size: 20px;
+}
+
+.rice_text,
+.laksa_text {
+    font-size: 16px;
+    width: 500px;
+    margin: auto;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:1100px) {
+
+    .rice,
+    .laksa {
+        width: 600px;
+    }
+
+    .rice_img,
+    .laksa_img {
+        width: 400px;
+        height: 260px;
+
+    }
+
+    .rice_text,
+    .laksa_text {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+
+    .rice,
+    .laksa {
+        width: 500px;
+    }
+
+    .rice_img,
+    .laksa_img {
+        width: 300px;
+        height: 180px;
+    }
+
+    .rice_title,
+    .laksa_title {
+        font-size: 18px;
+    }
+
+    .rice_text,
+    .laksa_text {
+        font-size: 14px;
+        line-height: 20px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .food_menu_bar {
+        margin: 15px 0;
+        top: -70px;
+
+    }
+
+    .menu_title {
+        padding: 10px 60px;
+        font-size: 20px;
+    }
+
+    .menu_logo {
+        width: 65px;
+        height: 45px;
+        border-radius: 15px;
+        padding: 15px 10px;
+    }
+
+    .food_column {
+        flex-direction: column;
+        align-items: center;
+        top: -60px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+
+    .food_menu_bar {
+        top: -50px;
+
+    }
+
+    .menu_title {
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+
+    .menu_logo {
+        width: 45px;
+        height: 25px;
+        border-radius: 10px;
+        padding: 20px 10px;
+    }
+
+
+    .food_column {
+        top: -40px;
+    }
+
+    .rice,
+    .laksa {
+        width: 300px;
+    }
+
+    .rice_title,
+    .laksa_title {
+        width: 300px;
+    }
+
+    .food_menu_container {
+        margin: 0 15px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .food_menu_bar {
+        margin: 10px 0;
+        top: -40px;
+    }
+
+    .menu_title {
+        padding: 5px 30px;
+        font-size: 14px;
+    }
+
+    .menu_logo {
+        width: 25px;
+        height: 15px;
+        border-radius: 10px;
+        padding: 15px 10px;
+    }
+
+    .rice,
+    .laksa {
+        width: 280px;
+    }
+
+    .rice_img,
+    .laksa_img {
+        width: 220px;
+        height: 120px;
+    }
+
+    .rice_title,
+    .laksa_title {
+        font-size: 16px;
+    }
+
+    .rice_text,
+    .laksa_text {
+        font-size: 12px;
+        line-height: 16px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    .rice,
+    .laksa {
+        width: 240px;
+    }
+}
+
+
+.food_menu_container {
+    margin: 0 30px;
+}
+
+.food_menu_box2 {
+    border: 5px solid #F4F9F9;
+    color: #F4F9F9;
+}
+
+.food_menu_bar2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    position: relative;
+    top: -90px;
+
+}
+
+.menu_title2 {
+    padding: 20px 100px;
+    background-color: #251B37;
+    color: #F4F9F9;
+    font-size: 24px;
+}
+
+.food_menu_logo {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #F4F9F9;
+}
+
+.menu_logo {
+    width: 100px;
+    height: 80px;
+    border-radius: 40px;
+    padding: 20px 20px;
+}
+
+.food_column {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+}
+
+.keropok,
+.snack {
+    text-align: center;
+    width: 750px;
+}
+
+.keropok_img,
+.snack_img {
+    width: 500px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.keropok_title,
+.snack_title {
+    font-size: 20px;
+
+}
+
+.keropok_text,
+.snack_text {
+    font-size: 16px;
+    width: 500px;
+    margin: auto;
+    line-height: 24px;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+@media screen and (max-width:1100px) {
+
+    .keropok,
+    .snack {
+        width: 600px;
+    }
+
+    .keropok_img,
+    .snack_img {
+        width: 400px;
+        height: 260px;
+
+    }
+
+    .keropok_text,
+    .snack_text {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+
+    .keropok,
+    .snack {
+        width: 500px;
+    }
+
+    .keropok_img,
+    .snack_img {
+        width: 300px;
+        height: 180px;
+    }
+
+    .keropok_title,
+    .snack_title {
+        font-size: 18px;
+    }
+
+    .keropok_text,
+    .snack_text {
+        font-size: 14px;
+        line-height: 20px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .food_menu_bar2 {
+        margin: 15px 0;
+        top: -70px;
+
+    }
+
+    .menu_title2 {
+        padding: 10px 40px;
+        font-size: 20px;
+    }
+
+    .menu_logo {
+        width: 65px;
+        height: 45px;
+        border-radius: 15px;
+        padding: 15px 10px;
+    }
+
+    .food_column {
+        flex-direction: column;
+        align-items: center;
+        top: -60px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+
+    .food_menu_bar2 {
+        top: -50px;
+
+    }
+
+    .menu_title2 {
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+
+    .menu_logo {
+        width: 45px;
+        height: 25px;
+        border-radius: 10px;
+        padding: 20px 10px;
+    }
+
+
+    .food_column {
+        top: -40px;
+    }
+
+    .keropok,
+    .snack {
+        width: 300px;
+    }
+
+    .keropok_title,
+    .snack_title {
+        width: 300px;
+    }
+
+    .food_menu_container {
+        margin: 0 15px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .food_menu_bar2 {
+        margin: 10px 0;
+        top: -40px;
+    }
+
+    .menu_title2 {
+        padding: 5px 30px;
+        font-size: 14px;
+    }
+
+    .menu_logo {
+        width: 25px;
+        height: 15px;
+        border-radius: 10px;
+        padding: 15px 10px;
+    }
+
+    .keropok,
+    .snack {
+        width: 280px;
+    }
+
+    .keropok_img,
+    .snack_img {
+        width: 220px;
+        height: 120px;
+    }
+
+    .keropok_title,
+    .snack_title {
+        font-size: 16px;
+    }
+
+    .keropok_text,
+    .snack_text {
+        font-size: 12px;
+        line-height: 16px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .keropok,
+    .snack {
+        width: 240px;
+    }
+
+    .keropok_title,
+    .snack_title {
+        width: 250px;
+    }
+
+    .menu_title2 {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+.footer_container {
+    background-color: #F4F9F9;
+}
+
+.footer_row1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.footer_logo {
+    padding: 20px 0 20px 0;
+}
+
+#footer_img {
+    width: 80px;
+    height: 80px;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_about a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_socialmedia {
+    padding-top: 25px;
+}
+
+.socialmedia {
+    border: none;
+    border-radius: 80px;
+    background-color: black;
+    padding: 8px 8px;
+}
+
+.footer_line {
+    border-top: 1px solid black;
+    width: 1240px;
+    margin: auto;
+}
+
+.footer_privacy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#copyright {
+    margin-left: 60px;
+}
+
+#terms {
+    margin-right: 60px;
+}
+
+@media screen and (max-width: 1320px) {
+    .footer_line {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer_line {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #footer_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer_menu,
+    .footer_about,
+    #copyright,
+    #terms {
+        font-size: 12px;
+    }
+
+
+    .footer_line {
+        width: 560px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer_line {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .footer_row1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .footer_menu,
+    .footer_about {
+        padding: 20px 0;
+    }
+
+    .footer_privacy {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #copyright,
+    #terms {
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer_line {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .footer_line {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .footer_line {
+        width: 240px;
+    }
 }
