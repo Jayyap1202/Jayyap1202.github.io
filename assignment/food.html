@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Food</title>
+    <link rel="stylesheet" href="css/food.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/9cc7435f15.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/kt_logo.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img id="logo_img" src="img/kt_logo.png" alt="Terengganu Logo">
+            </div>
+            <div class="menu" id="myMenu">
+                <a href="https://jayyap1202.github.io/assignment/">Home</a>
+                <a href="https://jayyap1202.github.io/assignment/about">About</a>
+                <a href="https://jayyap1202.github.io/assignment/place">Place</a>
+                <a href="#">Food</a>
+                <a href="https://jayyap1202.github.io/assignment/contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="food">
+            <div>
+                <h2 id="food_title">Delicious Delights</h2>
+            </div>
+            <div class="place_text">
+                <p id="text">Terengganu may not be the most popular choice when you're looking for a vacation or
+                    adventure, but those who skip this beautiful state are missing out. Terengganu has many breathtaking
+                    surprises you should experience, including its unique and delicious cuisine.
+                    While you're there, here's a list of Terengganu food you must try:
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myMenu");
+            if (x.className === "menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
