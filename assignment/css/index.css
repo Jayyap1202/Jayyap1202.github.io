@@ -1025,3 +1025,14 @@ body {
         width: 280px;
     }
 }
+
+
+@media screen and (max-width: 285px) {
+    .text1 {
+        width: 270px;
+    }
+
+    #text2 {
+        width: 270px;
+    }
+}
