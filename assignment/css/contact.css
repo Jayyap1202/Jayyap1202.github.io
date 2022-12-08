@@ -159,6 +159,19 @@ input[type=submit] {
     text-align: center;
 }
 
+.way1_box a,
+.way2_box a {
+    text-decoration: none;
+    color: #251B37;
+}
+
+.way1_box a:hover,
+.way2_box a:hover {
+    text-decoration: underline;
+}
+
+
+
 .way2_box {
     background-color: #F4F9F9;
     color: #251B37;

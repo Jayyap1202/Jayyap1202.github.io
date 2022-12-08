@@ -16,6 +16,10 @@
     font-size: 38px;
 }
 
+#title_text {
+    text-shadow: 5px 5px grey;
+}
+
 .introduction {
     text-align: center;
     color: #F4F9F9;
