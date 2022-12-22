@@ -80,6 +80,18 @@
     cursor: pointer;
 }
 
+.button2 {
+    background-color: azure;
+    color: black;
+    border: solid grey;
+    border-radius: 5px;
+    margin: 4px 2px;
+    padding: 10px 120px 10px 10px;
+    font-size: 20px;
+    width: 110px;
+    cursor: pointer;
+}
+
 .button_drop {
     position: relative;
     display: inline-block;
