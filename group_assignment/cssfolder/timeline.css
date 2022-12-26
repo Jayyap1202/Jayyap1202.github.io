@@ -29,6 +29,11 @@
     border: 3px solid #eee;
 }
 
+[type=button] {
+    font-family: 'Oswald', sans-serif;
+
+}
+
 .main-timeline {
     position: relative;
 }
