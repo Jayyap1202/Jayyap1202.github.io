@@ -1,0 +1,22 @@
+[data-bs-toggle="collapse"] i:before {
+    content: "\f068";
+    padding-right: 10px;
+}
+
+[data-bs-toggle="collapse"].collapsed i:before {
+    content: "\f067";
+    padding-right: 10px;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.accordion-text {
+    padding-left: 24px;
+    font-family: 'Roboto', sans-serif;
+}
