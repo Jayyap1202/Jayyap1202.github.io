@@ -20,3 +20,7 @@ h5 {
     padding-left: 24px;
     font-family: 'Roboto', sans-serif;
 }
+
+.accordion-item {
+    margin: 10px 0;
+}
